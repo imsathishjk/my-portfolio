@@ -32,7 +32,7 @@ const Footer = () => {
         {copied ? <p className='absolute bottom-12 max-sm:left-0 md:left-32 text-green-300'>Email Copied! 📋 </p> : ''}
         <p className='hidden md:flex gap-1 items-center'><span><RiLinksLine className='text-green-400' /></span> Links:</p>
         <li className='flex items-center gap-2 cursor-pointer' onClick={handleCopyGmail}><IoMail className='text-green-400' /> Gmail</li>
-        <li><a className='flex items-center gap-2'><FaGithub className='text-green-400' /> Github</a></li>
+        <li><a href='https://github.com/imsathishjk' className='flex items-center gap-2'><FaGithub className='text-green-400' /> Github</a></li>
         <li><a className='flex items-center gap-2'  href="https://www.linkedin.com/in/sathish-jk" target='_blank'><FaLinkedin className='text-green-400' /> LinkedIn</a></li>
       </ul>
       <div className='flex flex-col items-start md:flex-row gap-5 mt-5'>
