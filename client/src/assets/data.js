@@ -23,7 +23,7 @@ const data = [
     {
         id: 3,
         title: 'Forever E-Commerce',
-        skills: ['Reactjs', 'Javascript', 'TailwindCSS'],
+        skills: ['Reactjs', 'Javascript', 'Tailwind'],
         image: forever,
         liveLink: 'https://forever-e-commerce-mu.vercel.app/',
         githubLink: 'https://github.com/imsathishjk/forever-e-commerce'
@@ -31,7 +31,7 @@ const data = [
     {
         id: 8,
         title: "Sarathy Fencing Works",
-        skills: ['Reactjs', 'TailwindCSS', 'Javascript'],
+        skills: ['Reactjs', 'Tailwind', 'Javascript'],
         image: sarathy,
         liveLink: "https://sarathy-fence.vercel.app/",
         githubLink: 'https://github.com/imsathishjk/sarathy-fence'
@@ -47,7 +47,7 @@ const data = [
     {
         id: 4,
         title: 'Crypto Currency',
-        skills: ['Reactjs', 'Javascript', 'TailwindCSS'],
+        skills: ['Reactjs', 'Javascript', 'Tailwind'],
         image: crypto,
         liveLink: 'https://crypto-wave-khaki.vercel.app/',
         githubLink: 'https://github.com/imsathishjk/crypto-wave'
@@ -79,7 +79,7 @@ const data = [
     {
         id: 10,
         title: 'Acto Todo List',
-        skills: ['HTML', 'TailwindCSS', 'Reactjs'],
+        skills: ['HTML', 'Tailwind', 'Reactjs'],
         image: actodo,
         liveLink: 'https://act-todo-list-ten.vercel.app/',
         githubLink: 'https://github.com/imsathishjk/act-todo-list'
@@ -95,7 +95,7 @@ const data = [
     {
         id: 12,
         title: 'Netflix Clone',
-        skills: ['HTML', 'CSS', 'Reactjs', 'TailwindCSS', 'Axios'],
+        skills: ['HTML', 'CSS', 'Reactjs', 'Tailwind', 'Axios'],
         image: netflix,
         liveLink: 'https://netflix-clone-kappa-seven-75.vercel.app/',
         githubLink: 'https://github.com/imsathishjk/netflix-clone'
