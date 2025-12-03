@@ -95,7 +95,7 @@ const data = [
     {
         id: 12,
         title: 'Netflix Clone',
-        skills: ['HTML', 'CSS', 'Reactjs', 'Tailwind', 'Axios'],
+        skills: ['HTML', 'CSS', 'Reactjs', 'Tailwind', 'API'],
         image: netflix,
         liveLink: 'https://netflix-clone-kappa-seven-75.vercel.app/',
         githubLink: 'https://github.com/imsathishjk/netflix-clone'
