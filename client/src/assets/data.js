@@ -8,6 +8,7 @@ import crypto from './images/crypto.png';
 import sarathy from './images/sarathy.png';
 import actodo from './images/act-todo.png';
 import nostra from './images/nostra.png';
+import netflix from './images/netflix-clone.png';
 
 
 const data = [
@@ -90,6 +91,15 @@ const data = [
         image: nostra,
         liveLink: 'https://imsathishjk.github.io/nostra-e-commerce/',
         githubLink: 'https://github.com/imsathishjk/nostra-e-commerce'
+    },
+    {
+        id: 12,
+        title: 'Netflix Clone',
+        skills: ['HTML', 'CSS', 'Reactjs', 'TailwindCSS', 'Axios'],
+        image: netflix,
+        liveLink: 'https://netflix-clone-kappa-seven-75.vercel.app/',
+        githubLink: 'https://github.com/imsathishjk/netflix-clone'
+
     }
 ]
 
