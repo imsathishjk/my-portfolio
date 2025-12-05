@@ -17,7 +17,7 @@ const data = [
         title: 'Royal Authentication',
         skills: ['Reactjs', 'Expressjs', 'MongoDB', 'Nodejs'],
         image: royalauth,
-        liveLink: 'https://mern-authentication-beige.vercel.app/',
+        liveLink: 'https://mern-authentication-client-beta.vercel.app',
         githubLink: 'https://github.com/imsathishjk/mern-authentication'
     },
     {
