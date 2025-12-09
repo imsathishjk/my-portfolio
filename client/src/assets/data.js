@@ -9,6 +9,7 @@ import sarathy from './images/sarathy.png';
 import actodo from './images/act-todo.png';
 import nostra from './images/nostra.png';
 import netflix from './images/netflix-clone.png';
+import youtube from './images/youtube-clone.png';
 
 
 const data = [
@@ -100,6 +101,14 @@ const data = [
         liveLink: 'https://netflix-clone-kappa-seven-75.vercel.app/',
         githubLink: 'https://github.com/imsathishjk/netflix-clone'
 
+    },
+    {
+        id: 13,
+        title: 'Youtube Clone',
+        skills: ['HTML', 'Tailwind', 'API', 'Reactjs'],
+        image: youtube,
+        liveLink: 'https://youtube-clone-amber-omega.vercel.app',
+        githubLink: 'https://github.com/imsathishjk/youtube-clone'
     }
 ]
 
