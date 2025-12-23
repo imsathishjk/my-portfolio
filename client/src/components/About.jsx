@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div className="py-20" id='about'>
             <div className='my-12'>
-                <h1  className='select-none max-md:text-xl lg:text-2xl xl:text-3xl font-semibold text-center my-3
+                <h1 className='select-none max-md:text-xl lg:text-2xl xl:text-3xl font-semibold text-center my-3
             bg-clip-text text-transparent bg-gradient-to-br from-green-400 to-green-600
             '>The Journey i have so far</h1>
                 <p className='select-none text-sm  md:text-md lg:text-lg font-medium text-center text-wrap max-w-3xl mx-auto tracking-wide'>My journey reflects learning, growth, and adaptability.</p>
@@ -19,7 +19,7 @@ const About = () => {
                     date="2014 - 2017"
                     iconStyle={{ background: "#16a34a", color: "#fff" }}
                     icon={<FaGraduationCap />}
-                    contentStyle={{ background: '#052e16', height: '100%', color: '#86efac', fontWeight: 'bold'}}
+                    contentStyle={{ background: '#052e16', height: '100%', color: '#86efac', fontWeight: 'bold' }}
                 >
                     <h3 className="vertical-timeline-element-title select-none text-green-400 text-md md:text-lg font-medium">B.Sc Physics</h3>
                     <h4 className="vertical-timeline-element-subtitle select-none text-white font-normal text-sm md:text-md">Urumu Dhanalakshmi College, Trichy</h4>
@@ -32,10 +32,10 @@ const About = () => {
                     icon={<FaBriefcase />}
                     contentStyle={{ background: '#052e16', height: '100%', color: '#86efac', fontWeight: 'bold' }}
                 >
-                    <h3 className="vertical-timeline-element-title select-none text-green-400 text-md md:text-lg font-medium">Administration</h3>
-                    <h4 className="vertical-timeline-element-subtitle select-none text-white font-normal text-sm md:text-md">SVJ Engg Works, Madurai</h4>
+                    <h3 className="vertical-timeline-element-title select-none text-green-400 text-md md:text-lg font-medium">2018 - Present</h3>
+                    <h4 className="vertical-timeline-element-subtitle select-none text-white font-normal text-sm md:text-md">6 years Plus Experience in Non-IT Industry</h4>
                 </VerticalTimelineElement>
-                <VerticalTimelineElement
+                {/* <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Feb 2018 - Apr 2021"
                     iconStyle={{ background: "#16a34a", color: "#fff" }}
@@ -108,7 +108,7 @@ const About = () => {
                 >
                     <h3 className="vertical-timeline-element-title select-none text-green-400 text-md md:text-lg font-medium">DTP Operator</h3>
                     <h4 className="vertical-timeline-element-subtitle select-none text-white font-normal text-sm md:text-md">Brainbank Publications, Chennai</h4>
-                </VerticalTimelineElement>
+                </VerticalTimelineElement> */}
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="May 2025 - Till Now"
