@@ -1,22 +1,23 @@
 import royalauth from './images/royal auth.png';
 import forever from './images/forever.png';
 import greenden from './images/greenden.png';
-import tripadvisor from './images/trip advisor.png';
+import tripadvisor from './images/trip_advisor.png';
 import udemy from './images/udemy.png';
 // import youtube from './images/forever.png';
 import crypto from './images/crypto.png';
 import sarathy from './images/sarathy.png';
 import actodo from './images/act-todo.png';
 import nostra from './images/nostra.png';
-import netflix from './images/netflix-clone.png';
-import youtube from './images/youtube-clone.png';
+import netflix from './images/netflix.png';
+import youtube from './images/youtube.png';
+import hire from './images/hire.png';
 
 
 const data = [
     {
         id: 1,
         title: 'Royal Authentication',
-        skills: ['Reactjs', 'Expressjs', 'MongoDB', 'Nodejs'],
+        skills: ['Reactjs', 'Expressjs', 'MongoDB', 'Nodejs', 'API'],
         image: royalauth,
         liveLink: 'https://mern-authentication-client-beta.vercel.app',
         githubLink: 'https://github.com/imsathishjk/mern-authentication'
@@ -109,6 +110,14 @@ const data = [
         image: youtube,
         liveLink: 'https://youtube-clone-amber-omega.vercel.app',
         githubLink: 'https://github.com/imsathishjk/youtube-clone'
+    },
+    {
+        id: 14,
+        title: 'Hire - Job Portal',
+        skills: ['MongoDB', 'Expressjs', 'Reactjs', "Nodejs", 'Tailwind', 'API'],
+        image: hire,
+        liveLink: '',
+        githubLink: ''
     }
 ]
 
