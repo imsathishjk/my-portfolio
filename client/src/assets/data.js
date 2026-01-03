@@ -38,14 +38,6 @@ const data = [
         liveLink: "https://sarathy-fence.vercel.app/",
         githubLink: 'https://github.com/imsathishjk/sarathy-fence'
     },
-    // {
-    //     id: 2,
-    //     title: 'Youtube Clone',
-    //     skills: ['Reactjs', 'Axios', 'TailwindCSS', 'API'],
-    //     image: youtube,
-    //     liveLink: 'https://youtube-clone-five-gilt.vercel.app/',
-    //     githubLink: 'https://github.com/imsathishjk/youtube-clone'
-    // },
     {
         id: 4,
         title: 'Crypto Currency',
@@ -116,8 +108,8 @@ const data = [
         title: 'Hire - Job Portal',
         skills: ['MongoDB', 'Expressjs', 'Reactjs', "Nodejs", 'Tailwind', 'API'],
         image: hire,
-        liveLink: '',
-        githubLink: ''
+        liveLink: 'https://hire-jobportal-admin.vercel.app',
+        githubLink: 'https://github.com/imsathishjk/hire-jobportal'
     }
 ]
 
