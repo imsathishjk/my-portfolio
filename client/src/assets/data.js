@@ -11,6 +11,7 @@ import nostra from './images/nostra.png';
 import netflix from './images/netflix.png';
 import youtube from './images/youtube.png';
 import hire from './images/hire.png';
+import rich from './images/rich.png';
 
 
 const data = [
@@ -110,6 +111,14 @@ const data = [
         image: hire,
         liveLink: 'https://hire-jobportal-admin.vercel.app',
         githubLink: 'https://github.com/imsathishjk/hire-jobportal'
+    },
+    {
+        id: 15,
+        title: 'Rich Blog App',
+        skills: ['Reactjs', 'Tailwind', 'API', 'Expressjs', 'Nodejs', 'Postgresql'],
+        image: rich,
+        liveLink: 'https://rich-blog-app-client.vercel.app',
+        githubLink: 'https://github.com/imsathishjk/rich-blog-app'
     }
 ]
 

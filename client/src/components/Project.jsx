@@ -10,6 +10,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiAxios } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 
 
@@ -25,7 +26,7 @@ const Project = ({ title, skills, image, liveLink, githubLink }) => {
                         return <div key={i} className='w-8 h-8 bg-white flex justify-center items-center rounded-md'>
                             {item.includes('HTML') ? <FaHtml5 className='text-orange-600' /> : item.includes('CSS') ? <FaCss3 className='text-blue-400' /> :
                                 item.includes('Reactjs') ? <FaReact className='text-sky-400' /> : item.includes('Javascript') ? <FaJs className='text-yellow-500' />
-                                    : item.includes('Tailwind') ? <SiTailwindcss className='text-sky-400' /> : item.includes('Expressjs') ? <SiExpress className='text-green-600' /> : item.includes('MongoDB') ? <SiMongodb className='text-green-500' /> : item.includes('API') ? <SiAxios className='text-violet-500' /> : <FaNodeJs className='text-green-500' />}
+                                    : item.includes('Tailwind') ? <SiTailwindcss className='text-sky-400' /> : item.includes('Expressjs') ? <SiExpress className='text-green-600' /> : item.includes('MongoDB') ? <SiMongodb className='text-green-500' /> : item.includes('API') ? <SiAxios className='text-violet-500' /> : item.includes('Postgresql') ? < BiLogoPostgresql className='text-[#336691]' /> : <FaNodeJs className='text-green-500' />}
                         </div>
                     })
                 }
